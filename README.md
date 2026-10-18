@@ -8,15 +8,22 @@ My main interests are backend engineering, reliable background processing, API d
 
 [LinkedIn](https://www.linkedin.com/in/sunmin-dev/) · [Email](mailto:sunmin.lee@ucdconnect.ie)
 
-## Featured engineering projects
+## Applications and engineering case studies
 
-| Project | The need | What I am building | Main technologies |
+| Project | Need and implementation | Status | Main technologies |
 | --- | --- | --- | --- |
-| [Subtitle Companion](https://github.com/sunminlee-ucd/subtitle-companion-showcase) | Understand and study dialogue when preferred subtitles are unavailable | Timing-safe translation, authorized subtitle delivery, synchronized overlays, and study workflows across Chrome and Android | Python, FastAPI, JavaScript, Kotlin, Supabase, Docker, Cloud Run |
-| [PointBuild](https://github.com/sunminlee-ucd/pointbuild-showcase) | Turn a visual UI correction into the intended source edit | DOM-to-source targeting, token-backed preview, bounded changes, isolated Git staging, verification, and Undo | TypeScript, React, Vite, Babel, Node.js, Git, Playwright |
-| [SwitchAI](https://github.com/sunminlee-ucd/switchai-showcase) | Choose and execute AI requests with explicit cost and capability constraints | Policy-based routing, provider adapters, bounded fallback, idempotency, reconciliation, and execution audit | TypeScript, Node.js, provider APIs, JSONL persistence |
+| [Subtitle Companion](https://github.com/sunminlee-ucd/subtitle-companion-showcase) | Language access and study: timing-safe translation, authorized delivery, and Chrome/Android overlays | Implemented application workflows; active development | Python, FastAPI, JavaScript, Kotlin, Supabase, Docker, Cloud Run |
+| [Brand Lens / Bunjang](https://github.com/sunminlee-ucd/bunjang-showcase) | Resale research: resumable collection, separate sold/reserved evidence, visual similarity, and browser-triggered background jobs | Implemented local/cloud paths; active development | Python, SQLite, Firestore, Cloud Run Jobs, Pillow, JavaScript |
+| [Dublin Bikes](https://github.com/sunminlee-ucd/Project) | Team application for live and predictive bike-station availability | Public team project | Python, Flask, SQLAlchemy, MySQL, XGBoost |
 
-The project pages explain the problem, product rationale, architecture, technology choices, core engineering decisions, and current limitations. Subtitle Companion is under active development; PointBuild and SwitchAI are local prototypes.
+## Prototypes in development
+
+| Project | Engineering focus | Current boundary |
+| --- | --- | --- |
+| [PointBuild](https://github.com/sunminlee-ucd/pointbuild-showcase) | DOM-to-source targeting, token-backed preview, bounded edits, isolated Git staging, verification, and Undo | **Unfinished local prototype**, focused on React/Vite and supported deterministic edits |
+| [SwitchAI](https://github.com/sunminlee-ucd/switchai-showcase) | Policy-based AI routing, provider adapters, bounded fallback, idempotency, and reconciliation | Local prototype with a deterministic/mock demo and opt-in provider path |
+
+Each showcase explains its product rationale, architecture, technology choices, and limitations, and includes a small runnable source-derived example with synthetic inputs. These examples demonstrate individual mechanisms rather than the complete private applications.
 
 ## What I focus on
 
@@ -30,14 +37,10 @@ The project pages explain the problem, product rationale, architecture, technolo
 | Area | Technologies used in my projects |
 | --- | --- |
 | Backend | Python, FastAPI, TypeScript, Node.js, HTTP APIs |
-| Data and identity | PostgreSQL, Supabase Auth/Storage, access policies, local JSONL persistence |
+| Data and identity | PostgreSQL, SQLite, Firestore, Supabase Auth/Storage, access policies, local JSONL persistence |
 | Clients | JavaScript, React, Chrome extensions, Kotlin/Android |
 | Cloud and delivery | Docker, Google Cloud Run, Cloud Run Jobs, Cloud Build, GitHub Actions |
 | Verification | pytest, Ruff, Vitest, Playwright, Node.js test runner, JUnit, Robolectric |
-
-## More public work
-
-[Dublin Bikes](https://github.com/sunminlee-ucd/Project) is a team project for real-time and predictive bike-station availability. Its repository includes the application overview, architecture, and local setup.
 
 ## Reviewing private projects
 
