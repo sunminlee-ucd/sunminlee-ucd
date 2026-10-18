@@ -4,7 +4,7 @@
 
 I build applications that connect practical user needs with APIs, background jobs, and cloud services. My projects focus on keeping data trustworthy, making interrupted work recoverable, and integrating AI into workflows users can inspect and control.
 
-**MSc Computer Science, University College Dublin · Global Excellence Scholarship recipient**
+**MSc Computer Science candidate, University College Dublin · Global Excellence Scholarship recipient**
 
 Interested in **backend and software engineering opportunities**.
 
@@ -32,9 +32,9 @@ An asking price or a sold label alone cannot establish what sold, when, or for h
 
 - **Core engineering:** checkpoint collection for recovery; share progress and cancellation across web and worker processes; retain uncertain job submissions for reconciliation.
 - **Stack:** Python, JavaScript, SQLite, Firestore, Cloud Run Jobs, Pillow.
-- **Stage:** implemented local and cloud paths; active development.
+- **Stage:** deployed web application; collection and analysis under active development.
 
-[Architecture and decisions](https://github.com/sunminlee-ucd/bunjang-showcase#core-engineering) · [Runnable image-similarity sample](https://github.com/sunminlee-ucd/bunjang-showcase/tree/main/examples)
+[Deployed app — sign-in required](https://bunjang-web-x5omgavbua-du.a.run.app/) · [Architecture and decisions](https://github.com/sunminlee-ucd/bunjang-showcase#core-engineering) · [Runnable sample and visual output](https://github.com/sunminlee-ucd/bunjang-showcase#runnable-example)
 
 ## More engineering work
 
@@ -57,8 +57,17 @@ An asking price or a sold label alone cannot establish what sold, when, or for h
 **Clients:** JavaScript · React · Chrome extensions · Kotlin / Android  
 **Cloud and delivery:** Docker · Cloud Run · Cloud Run Jobs · Cloud Build · GitHub Actions
 
-## Reviewing my work
+## Review code in a few minutes
 
-The showcases document the problem, my role, architecture, implementation choices, and current limits. Each includes a focused source-derived example with synthetic inputs, a demo, and tests.
+Each showcase explains the problem, my role, architecture, and current limits. These focused samples run on synthetic inputs without product accounts, cloud credentials, or paid AI calls.
+
+| Public sample | What to inspect | Automated checks |
+| --- | --- | --- |
+| [Subtitle cue engine](https://github.com/sunminlee-ucd/subtitle-companion-showcase/tree/main/examples) | Cue timing, overlaps, offsets, and playback boundaries | [Tests and demo](https://github.com/sunminlee-ucd/subtitle-companion-showcase/actions/workflows/sample-checks.yml) |
+| [Image similarity](https://github.com/sunminlee-ucd/bunjang-showcase/tree/main/examples) | Color/layout/edge features, similarity scores, and invalid-input handling | [Tests and visual demo](https://github.com/sunminlee-ucd/bunjang-showcase/actions/workflows/sample-checks.yml) |
+| [UI target identity](https://github.com/sunminlee-ucd/pointbuild-showcase/tree/main/examples) | Distinguish repeated elements while preserving identity across rerenders | [Tests and demo](https://github.com/sunminlee-ucd/pointbuild-showcase/actions/workflows/sample-checks.yml) |
+| [AI route selection](https://github.com/sunminlee-ucd/switchai-showcase/tree/main/examples) | Enforce quality/reliability constraints before cost selection | [Tests and demo](https://github.com/sunminlee-ucd/switchai-showcase/actions/workflows/sample-checks.yml) |
+
+The checks cover these public samples; they do not certify the full private applications or deployed services.
 
 Full product implementations remain private. **Technical walkthroughs and scoped source-code reviews are available on request.**
