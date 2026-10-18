@@ -16,6 +16,8 @@ My main interests are backend engineering, reliable background processing, API d
 | [Brand Lens / Bunjang](https://github.com/sunminlee-ucd/bunjang-showcase) | Resale research: resumable collection, separate sold/reserved evidence, visual similarity, and browser-triggered background jobs | Implemented local/cloud paths; active development | Python, SQLite, Firestore, Cloud Run Jobs, Pillow, JavaScript |
 | [Dublin Bikes](https://github.com/sunminlee-ucd/Project) | Team application for live and predictive bike-station availability | Public team project | Python, Flask, SQLAlchemy, MySQL, XGBoost |
 
+[See Subtitle Companion screenshots and the 20-second public UI walkthrough](https://github.com/sunminlee-ucd/subtitle-companion-showcase#product-screenshots-and-public-ui-walkthrough).
+
 ## Prototypes in development
 
 | Project | Engineering focus | Current boundary |
