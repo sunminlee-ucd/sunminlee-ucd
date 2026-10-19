@@ -34,7 +34,7 @@ An asking price or a sold label alone cannot establish what sold, when, or for h
 - **Stack:** Python, JavaScript, SQLite, Firestore, Cloud Run Jobs, Pillow.
 - **Stage:** deployed web application; collection and analysis under active development.
 
-[Deployed app — sign-in required](https://bunjang-web-x5omgavbua-du.a.run.app/) · [Architecture and decisions](https://github.com/sunminlee-ucd/bunjang-showcase#core-engineering) · [Runnable sample and visual output](https://github.com/sunminlee-ucd/bunjang-showcase#runnable-example)
+[Deployed app — sign-in required](https://bunjang-web-x5omgavbua-du.a.run.app/) · [Architecture and decisions](https://github.com/sunminlee-ucd/bunjang-showcase#core-engineering) · [Runnable sample and visual output](https://github.com/sunminlee-ucd/bunjang-showcase#runnable-example) · [App screenshots and 20-second walkthrough](https://github.com/sunminlee-ucd/bunjang-showcase#product-screenshots-and-ui-walkthrough)
 
 ## More engineering work
 
